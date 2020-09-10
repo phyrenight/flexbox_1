@@ -46,3 +46,12 @@ section {
 #section_3 {
     flex-direction: column-reverse;
 }
+
+
+@media(max-width: 800px){
+    .main_section {
+        flex-direction: column;
+        position: absolute;
+        left: 40%
+    }
+}
