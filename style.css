@@ -1,8 +1,48 @@
-html, body {
+html, body, main {
     height: 100%;
 }
 
 
-.container {
+section {
     display: flex;
+    
+}
+
+.main_section {
+    justify-content: space-evenly;
+}
+
+.inner_section {
+    width: 250px;
+}
+
+#section_1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+#section_2 {
+    flex-direction: column;
+    justify-content: space-around;;
+}
+
+#section_3 {
+    justify-content: space-between;
+}
+
+#section_2_first_div {
+    order: 3;
+}
+
+#section_2_second_div {
+    order: 1
+}
+
+#section_2_third_div {
+    order: 2;
+}
+
+#section_3 {
+    flex-direction: column-reverse;
 }
