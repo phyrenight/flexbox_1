@@ -31,16 +31,20 @@ section {
     justify-content: space-between;
 }
 
+#section_2 h3 {
+    order:1
+}
+
 #section_2_first_div {
-    order: 3;
+    order: 4;
 }
 
 #section_2_second_div {
-    order: 1
+    order: 2;
 }
 
 #section_2_third_div {
-    order: 2;
+    order: 3;
 }
 
 #section_3 {
